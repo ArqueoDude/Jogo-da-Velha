@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+}
+
+h1{
+font-family: fantasy;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 181, 147);
+    border: 1px solid black;
+    display: inline-block;
+    
+}
+
+.naruto{
+    position: relative;
+}
+
+.naruto::after{
+    content: url(/icones/naruto.png);
+    position: absolute;
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   
+}
+
+.sasuke{
+    position: relative;
+}
+
+.sasuke::after{
+    content: url(/icones/sasuke.png);
+    position: absolute;
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   
+}
+
+/* .linhaTopo{
+    position: relative;
+
+}
+
+.linhaTopo::after{
+    content: url(./icones/icons8-scroll-64.png);
+    position: absolute;
+    font-size: 106px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+} */
+
+.agoraVai{
+    content: url(./icones/icons8-scroll-64.png);
+    font-size: 50px;
+    position: relative;
+}
+
+.agoraVai::after{
+    position: absolute;
+}
